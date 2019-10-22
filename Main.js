@@ -10,8 +10,8 @@ export class Main{
   constructor(){
     console.log('游戏开始了');
     // 初始化画布
-    //this.canvas=document.getElementById('game');
-    this.canvas = wx.createCanvas();
+    this.canvas=document.getElementById('game');  //网页上运行
+    //this.canvas = wx.createCanvas();  //微信开发程序上运行
     this.ctx = this.canvas.getContext('2d');
     
     //初始化资源加载器
