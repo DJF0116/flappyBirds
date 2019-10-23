@@ -27,6 +27,8 @@ export class Birds extends Sprite{
     this.index = 0; //切换小鸟,实现动态效果
     this.count = 0; //计数器
     this.time = 0;  //计时器,自由落体时间
+    this.life = 3;
+    this.wudi = false;
 
   }
 
